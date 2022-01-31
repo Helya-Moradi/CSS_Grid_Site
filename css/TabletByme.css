@@ -1,0 +1,27 @@
+.container-1 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-1 article:nth-of-type(1) {
+    grid-column: 1/2;
+    display: block;
+}
+
+.container-1 article:nth-of-type(7) {
+    grid-column: 1/2;
+    display: block;
+}
+
+.footer-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.first-article {
+    grid-column: 1;
+    grid-row: 1;
+}

@@ -1,0 +1,30 @@
+.menu-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: center;
+    order: 2;
+    margin-top: 20px;
+}
+
+.menu-container h2,
+.menu-container span {
+    justify-self: center;
+    order: 1;
+}
+
+.header .head-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 25px;
+}
+
+
+.container-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer-container {
+    grid-template-columns: repeat(1, 1fr);
+}
